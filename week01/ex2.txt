@@ -1,0 +1,10 @@
+    1  grep -ril 'c:\Users\' -e '.jpg' | sort -r > ex1.txt
+    2  grep -ril 'c:\Innopolis\' -e '.c' | sort -r > ex1.txt
+    3  grep -ril 'c:\Innopolis\' -e 'main' | sort -r > ex1.txt
+    4  cd c:\Innopolis\
+    5  cd BS2/Fall_Semester/Operating_Systems/labs/
+    6  grep -ril 'c:\Innopolis\' -e 'main' | sort -r > ex1.txt
+    7  grep -ril 'c:\Innopolis\' -e 'main' | sort -r > ex1.txt
+    8  grep -r 'c:\Innopolis\' -e 'main' | sort -r > ex1.txt
+    9  cd Lab1
+   10  history > ex2.txt
