@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   1735	    616	      8	   2359	    937	my_prog
