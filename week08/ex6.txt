@@ -1,0 +1,5 @@
+The address is 16 bit
+The page size is 8KB = 65536 bit
+To represent this offset we need log(65536) = 13 bits
+So, for the page number 16 - 13 = 3 bits are left.
+Therefore, there is 2^3 = 8 pages

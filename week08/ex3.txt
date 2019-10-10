@@ -1,0 +1,20 @@
+top - 13:37:31 up 5 days,  3:58,  1 user,  load average: 0.41, 0.53, 0.56
+Tasks: 340 total,   1 running, 271 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.9 us,  1.2 sy,  0.0 ni, 96.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  8046340 total,  1121600 free,  5320456 used,  1604284 buff/cache
+KiB Swap:  2097148 total,  1058300 free,  1038848 used.  1660228 avail Mem 
+
+procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st
+ 1  0 1039872 1164588  52088 1477796   14   29   209   104   26  141 23  9 67  0  0
+ 0  0 1039872 1149492  52088 1479448    0    0     0     0  688 1884  2  1 97  0  0
+top - 13:38:52 up 5 days,  3:59,  1 user,  load average: 0.54, 0.55, 0.56
+Tasks: 340 total,   1 running, 271 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.0 us,  1.7 sy,  0.0 ni, 93.4 id,  0.1 wa,  0.0 hi,  0.7 si,  0.0 st
+KiB Mem :  8046340 total,  1115104 free,  5325252 used,  1605984 buff/cache
+KiB Swap:  2097148 total,  1058300 free,  1038848 used.  1671712 avail Mem 
+top - 13:39:16 up 5 days,  4:00,  1 user,  load average: 0.73, 0.59, 0.58
+Tasks: 340 total,   1 running, 271 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.8 us,  1.5 sy,  0.0 ni, 93.6 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem :  8046340 total,  1142256 free,  5325768 used,  1578316 buff/cache
+KiB Swap:  2097148 total,  1058300 free,  1038848 used.  1698916 avail Mem 
