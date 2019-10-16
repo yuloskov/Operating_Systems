@@ -1,0 +1,7 @@
+To increase the number of hits, we may have cyclic repetion of pages in our sequence.
+For example, if the size of virtual memory is 3, we can have sequence:
+1 2 3 1 2 3 ..... 1 2 3
+With such a sequence, we will have almost 100% hit/miss ratio.
+Another example may be:
+1 2 3 ...... 998 999 1000
+In such a way, we will have 0% hit/miss ratio, because each page is new and was not seen before.
