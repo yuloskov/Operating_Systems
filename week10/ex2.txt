@@ -1,0 +1,11 @@
+I created file.txt in week01 directory.
+Then, using this command:
+$ link ../week01/file.txt _ex2.txt 
+I linked it to _ex2.txt.
+Using this command: 
+$ ls -i ../week01/file.txt
+I got the node number and used it to find links:
+$ find ../week01/file.txt -inum 4334936
+Then I deleted hard links with this command:
+$ find ../week01/file.txt -print0 | xargs -I {} -0 rm -v {}
+And got a message: removed '../week01/file.txt'

@@ -1,0 +1,23 @@
+Using these commands, I removed execute permission for everybody:
+$ chmod r-x _ex3.txt
+$ chmod u-x _ex3.txt
+$ chmod g-x _ex3.txt
+
+A  numeric  mode is from one to four octal digits (0-7), derived by adding up the bits with values 4, 2, and 1.  Omitted digits
+are assumed to be leading zeros.  The first digit selects the set user ID (4) and set group ID (2) and restricted  deletion  or
+sticky  (1)  attributes.  The second digit selects permissions for the user who owns the file: read (4), write (2), and execute
+(1); the third selects permissions for other users in the file's group, with the same values; and the fourth  for  other  users
+not in the file's group, with the same values.
+
+chmod  never  changes  the permissions of symbolic links; the chmod system call cannot change their permissions.  This is not a
+problem since the permissions of symbolic links are never used.  However, for each symbolic link listed on  the  command  line,
+chmod  changes  the permissions of the pointed-to file.  In contrast, chmod ignores symbolic links encountered during recursive
+directory traversals.
+
+Using the command:
+$ chmod 707 _ex3.txt
+I give all permissions to everyone except group.
+
+660 means give permission to read and write to owner and group
+775 means give the owner and the group all permissions and world read and execute
+777 means give everyone all permissions
