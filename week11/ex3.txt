@@ -1,0 +1,3 @@
+1) Hello is in the buffer when the fork called, so it will be placed in the buffers of two processes, 
+as the memory of the parent process copied, hence Hello will be printed twice.
+2) The buffer is flushed before fork called, so Hello is printed once, in the parent process.
