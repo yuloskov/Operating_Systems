@@ -1,0 +1,9 @@
+file size : 100mb
+
+DBUFF_SIZE=1024 : real    0m0.524
+DBUFF_SIZE=10 : real    0m24.789s 
+
+Obviously the time of the execution is depend on the buffer size. The more the size of the buffer, the faster program
+executes.
+
+Adding SYNC increases timings on 50% approximately.
